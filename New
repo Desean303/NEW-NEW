@@ -1,0 +1,21 @@
+#include<iostream>
+include<string>
+using namespace std;
+int main() {
+
+	struck student {
+		int ID;
+		string nickname;
+		bool isAnnoying = true;
+	};
+
+	student Natalie;
+	Natalie.ID = 12345;
+	Natalie.nickname = "natabux";
+
+	student Gus = {-9999, "Guh"};
+
+	cout << "Natalie Id:" << Natalie.ID << ", nickname:" << Natalie.nickname << endl;
+	cout << "Gus Id:" << Gus.ID << ", nickname:" << Gus.nickname << endl;
+
+}
